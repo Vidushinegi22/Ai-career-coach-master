@@ -1,20 +1,36 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# AI Career Coach – Full Stack App
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+A full-stack AI-powered career recommendation platform that helps users discover suitable tech roles based on their resume, skills, and interests. Built using Next.js, Neon DB, Tailwind CSS, Prisma, Inngest, and Shadcn UI.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
+## Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+- AI-based personalized career suggestions
+- Resume upload and parsing
+- Real-time skill matching
+- Background job processing with Inngest
+- Modern responsive UI using Tailwind & Shadcn UI
+- Connected to Neon cloud database
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+---
 
-GEMINI_API_KEY=
-```
+## Tech Stack
+
+- **Frontend**: Next.js, Tailwind CSS, Shadcn UI
+- **Backend**: Node.js API Routes, Inngest (for background tasks)
+- **Database**: Neon DB with Prisma ORM
+- **Language**: TypeScript
+
+---
+
+
+## Future Improvements
+
+- Skill gap analysis
+- Role-specific upskilling roadmap
+- Auth support with session saving
+- PDF resume parsing
+
+
+
